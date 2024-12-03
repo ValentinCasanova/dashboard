@@ -235,6 +235,11 @@ input {
     padding-top: 15px;
 }
 
+.announcements-bar div p{
+    color: rgba(94, 94, 94, 0.712);
+    font-weight: 400;
+}
+
 .announcements-bar div:nth-child(3){
     border-bottom: none;
 }
