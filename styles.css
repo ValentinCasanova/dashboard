@@ -292,6 +292,11 @@ input {
     margin: 0;
 }
 
+.trending p{
+    color: rgba(94, 94, 94, 0.712);
+    font-weight: 400;
+}
+
 .trending div img{
     width: 60px;
     border-radius: 100%;
