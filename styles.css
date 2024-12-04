@@ -250,6 +250,49 @@ input {
 }
 
 .trending{
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
 }
 
+.trending h3{
+    font-size: 25px;
+    font-weight: 500;
+    align-self: flex-start;
+    padding-top: 10px;
+}
+
+.trending-bar{
+    background-color:rgb(255, 255, 255);
+    align-self: flex-start;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trending-element{
+    display: flex;
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.trending-user{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-user p, h4{
+    padding: 0;
+    margin: 0;
+}
+
+.trending div img{
+    width: 60px;
+    border-radius: 100%;
+}
